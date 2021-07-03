@@ -63,7 +63,7 @@ export class StringGeneratorComponent implements OnInit {
     return strReverse == str;
   }
   isNumber(str: string) {
-    return !isNaN(parseFloat(str)) && !isNaN( 0) ;
+    return /^-?[\d.]+(?:e-?\d+)?$/.test(str);
   }
   isIncludeZero(str: string) {
     return str.includes('0');
