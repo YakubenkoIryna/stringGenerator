@@ -1,0 +1,11 @@
+.string-generator{
+  text-align: center;
+
+  &__title{
+    margin-top: 10rem;
+    font-size: 3.5rem;
+  }
+  &__text{
+    font-size: 2rem;
+  }
+}
